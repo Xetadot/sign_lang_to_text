@@ -3,11 +3,7 @@ import mediapipe as mp
 import torch
 import torch.nn as nn
 import numpy as np
-import pyttsx3
-import json
-import time
-import sys
-import os
+from datetime import datetime
 
 
 class GestureClassifier(nn.Module):
@@ -27,7 +23,7 @@ class GestureClassifier(nn.Module):
         return self.net(x)
 
 
-class_names = ["Hello", "Ok", "Thank you", "Bye", "Help"]
+class_names = ["Hello", "Ok", "Thank you", "Goodbye", "Help"]
 
 model = GestureClassifier(input_size=63, hidden_size=128,
                           num_classes=len(class_names))
@@ -36,12 +32,12 @@ model.load_state_dict(torch.load('gesture_classifier.pth',
 model.eval()
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
+hands = mp_hands.Hands(max_num_hands=2, min_detection_confidence=0.7)
 mp_drawing = mp.solutions.drawing_utils
 
 cap = cv2.VideoCapture(0)
-engine = pyttsx3.init()
 spoken_gesture = None
+
 
 while True:
     ret, frame = cap.read()
@@ -72,33 +68,20 @@ while True:
                     0][predicted_idx].item()
 
                 result_json = {
-                    "timestamp": time.time(),
+                    "timestamp": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
                     "gesture": predicted_gesture,
                     "confidence": round(confidence, 4)
                 }
 
-                print(json.dumps(result_json))
-                sys.stdout.flush()
-
-            with open("output.json", "a") as f:
-                f.write(json.dumps(result_json) + "\n")
-
             cv2.putText(frame, f'Gesture: {predicted_gesture}', (10, 30),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
 
-            if spoken_gesture != predicted_gesture:
-                spoken_gesture = predicted_gesture
-                engine.say(predicted_gesture)
-                engine.runAndWait()
     else:
         spoken_gesture = None
 
     cv2.imshow('Sign Language Recognition', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
-if os.path.exists("output.json"):
-    open("output.json", "w").close()
 
 cap.release()
 cv2.destroyAllWindows()
