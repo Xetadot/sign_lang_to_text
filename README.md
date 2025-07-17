@@ -306,6 +306,8 @@ We will be using `Visual Studio Code` as our main platform to run this model.
 
      _The gesture above translates into `Hello`._
 
+  3. Press `Q` to exit the window and end the model.
+
      
 
      
