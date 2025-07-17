@@ -13,6 +13,12 @@ Then, install the required library:
 ```
 pip install torch
 ```
+```
+pip install opencv-python
+```
+```
+pip install mediapipe
+```
 ***Note:** You may go to https://pytorch.org/get-started/locally/ to install the correct version of PyTorch for your system if you are using a GPU and want to speed up the model training.*
 
 
