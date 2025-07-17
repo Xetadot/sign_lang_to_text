@@ -1,7 +1,7 @@
 # Sign Language Recognition
 <img width="1000" height="150" alt="image" src="https://github.com/user-attachments/assets/f1260207-b02a-4173-bd78-7cdf6af07c7a" />
 
-This repository contains the source code and resources for a Sign Language Recognition System. The aim of this project is to develop a computer vision system that can recognize and interpret sign language gestures in real-time, specifically American Sign Language (ASL). This is a beginner friendly guide on how to do so.
+This repository contains the source code and resources for a Sign Language Recognition System. The aim of this project is to develop a computer vision system that can recognize and interpret sign language gestures in real-time, specifically American Sign Language (ASL). This is a **beginner friendly** guide.
 
 # Visual Studio Code (VS Code) Installation and Setup
 We will be using `Visual Studio Code` as our main platform to run this model.
@@ -294,7 +294,19 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      print("\n✅ Data collection done.")
      cap.release()
      cv2.destroyAllWindows()
-   ```
+     ```
+   
+# Running the model
+  Now that our code setup is done, we can finally run the model.
+
+  1. Run `live_recognition.py` and allow `Python` to access your device's camera. A seperate window will appear.
+  2. Show a gesture towards the camera. The model will translate the gesture showing `gesture:`.
+
+     <img width="481" height="384" alt="image" src="https://github.com/user-attachments/assets/b2d5b893-3aa4-414e-b66a-820e55137b82" />
+
+     _The gesture above translates into `Hello`._
+
+     
 
      
 
