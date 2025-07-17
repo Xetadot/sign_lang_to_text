@@ -149,11 +149,10 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      ```
   7. Create a file `gesture_classifier.py` and paste the previous code from `model.py`.
     
-  8.  In the terminal, run:  
-    ```
-     python -m venv myenv
-    ```
-  
+  8.  In the terminal, run:
+
+     python gesture_classifier.py
+     
 
      
  
