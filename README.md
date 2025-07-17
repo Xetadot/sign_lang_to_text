@@ -296,7 +296,7 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      cv2.destroyAllWindows()
      ```
    
-# Running the model
+# Running the Model
   Now that our code setup is done, we can finally run the model.
 
   1. Run `live_recognition.py` and allow `Python` to access your device's camera. A seperate window will appear.
