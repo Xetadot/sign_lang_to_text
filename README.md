@@ -1,8 +1,6 @@
 # sign_lang_to_text
-This AI model 
+<img width="380" height="133" alt="image" src="https://github.com/user-attachments/assets/f1260207-b02a-4173-bd78-7cdf6af07c7a" />
 
-
-<img width="251" height="201" alt="image" src="https://github.com/user-attachments/assets/93f85278-0cdc-4a16-a7dc-546d96eb7f0b" />
 
 
 # Reference
