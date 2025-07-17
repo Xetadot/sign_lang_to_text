@@ -3,8 +3,11 @@ import mediapipe as mp
 import csv
 import os
 
-gesture_list = ["Hello", "Ok", "Thank you", "Bye", "Help"]
-SAMPLES_PER_GESTURE = 500
+
+# List out the Sign Language you want to add (remove trained)
+# make sure to also add it into live_recognition line 25 class
+gesture_list = ["Hello", "Ok", "Thank you", "Goodbye", "Help"]
+SAMPLES_PER_GESTURE = 1000
 DATA_DIR = "gesture_data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -50,3 +53,4 @@ for gesture in gesture_list:
 print("\n✅ Data collection done.")
 cap.release()
 cv2.destroyAllWindows()
+
