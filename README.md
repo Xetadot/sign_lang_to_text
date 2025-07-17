@@ -110,19 +110,19 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      ```
       This is where the main code will be stored.
      
-  3. Open the terminal`(Ctrl + ~)` and run:
+  2. Open the terminal`(Ctrl + ~)` and run:
      ```
      python -m venv myenv
      ```
      This will create a folder named `myenv` with your virtual environment. `myenv` can be replaced with any other name you wish.
 
-  4. Activate the environment by running:
+  3. Activate the environment by running:
      ```
      .\myenv\Scripts\activate
      ```
      After this, your terminal should show `(myenv)` in green - this means you are in the virtual environment.
 
-  5. Install the required libraries:
+  4. Install the required libraries:
      ```
      pip install torch
      ```
@@ -137,7 +137,7 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      ```
      ***Note:** You may go to https://pytorch.org/get-started/locally/ to install the correct version of PyTorch for your system if you are using a GPU (e.g. NVIDIA) and want to speed up the model training.*
      
-  6. Create a folder `gesture_data` in the same directory as the Python file. Inside `gesture_data`, add one `.csv` file per gesture. Each file should contain only rows of **63 float values** that represent 3D coordinates from `MediaPipe`.
+  5. Create a folder `gesture_data` in the same directory as the Python file. Inside `gesture_data`, add one `.csv` file per gesture. Each file should contain only rows of **63 float values** that represent 3D coordinates from `MediaPipe`.
      
      Example structure:
      ```
@@ -147,11 +147,15 @@ We will be using `Visual Studio Code` as our main platform to run this model.
      ├── Thank you.csv
      ├── Goodbye.csv
      ```
-  7. Create a file `gesture_classifier.py` and paste the previous code from `model.py`.
+  6. Create a file `gesture_classifier.py` and paste the previous code from `model.py`.
     
-  8.  In the terminal, run:
-
+  7. In the terminal, run:
+     ```
      python gesture_classifier.py
+     ```
+
+     
+
      
 
      
