@@ -4,10 +4,13 @@ import csv
 import os
 
 
-# List out the Sign Language you want to add (remove trained)
+# List out the Sign Language you want to add (remove trained so it wouldnt replace the current data)
 # make sure to also add it into live_recognition line 25 class
-gesture_list = ["Hello", "Ok", "Thank you", "Goodbye", "Help"]
-SAMPLES_PER_GESTURE = 1000
+gesture_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+                'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+                'U', 'V', 'W', 'X', 'Y', 'Z']
+
+SAMPLES_PER_GESTURE = 500
 DATA_DIR = "gesture_data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -53,4 +56,3 @@ for gesture in gesture_list:
 print("\n✅ Data collection done.")
 cap.release()
 cv2.destroyAllWindows()
-

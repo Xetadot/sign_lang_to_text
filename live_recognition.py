@@ -23,7 +23,9 @@ class GestureClassifier(nn.Module):
         return self.net(x)
 
 
-class_names = ["Hello", "Ok", "Thank you", "Goodbye", "Help"]
+class_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+               'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+               'U', 'V', 'W', 'X', 'Y', 'Z']
 
 model = GestureClassifier(input_size=63, hidden_size=128,
                           num_classes=len(class_names))
