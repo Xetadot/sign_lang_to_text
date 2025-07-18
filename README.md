@@ -118,7 +118,7 @@ We will be using `Visual Studio Code` as our main platform to run this model.
 
   3. Activate the environment by running:
      ```
-     .\myenv\Scripts\activate
+     \myenv\Scripts\activate
      ```
      After this, your terminal should show `(myenv)` in green - this means you are in the virtual environment.
 
