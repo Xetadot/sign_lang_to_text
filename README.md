@@ -7,10 +7,13 @@ This repository contains the source code and resources for a Sign Language Recog
 We will be using `Visual Studio Code` as our main platform to run this model.
  1. Install [Visual Studio Code](https://code.visualstudio.com/) to your local device.
     
- 2. Download the latest version of [Python](https://www.python.org/downloads/) and run the installer. **MAKE SURE** you check the box that says `Add Python to PATH` before clicking `Install Now`.
- 3. Launch `Visual Studio Code`, click on `Extensions` on the left panel, search for `Python` and install the extension.
+ 2. Download [Python](https://www.python.org/downloads/) and run the installer. **MAKE SURE** you check the box that says `Add Python to PATH` before clicking `Install Now`.
+    
+    _**Note:** Python version 3.11 is most ideal_
+    
+ 4. Launch `Visual Studio Code`, click on `Extensions` on the left panel, search for `Python` and install the extension.
 
- 4. On the bottom right, click on `Select Intepreter` and select the `Python` version that you've installed earlier.
+ 5. On the bottom right, click on `Select Intepreter` and select the `Python` version that you've installed earlier.
 
  Hence, your `VS Code` setup is ready.
 
