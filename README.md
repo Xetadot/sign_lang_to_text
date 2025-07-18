@@ -21,9 +21,9 @@ We will be using `Visual Studio Code` as our main platform to run this model.
  Now that your `VS Code` is ready to be used, it's time to setup our code. We will need to create a virtual environment and install a few packages beforehand.
 
   1. Download the ZIP FILE
-<img width="619" height="387" alt="codezip" src="[https://github.com/user-attachments/assets/f1260207-b02a-4173-bd78-7cdf6af07c7a](https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3044/files/2021/05/github.png)" />
+<img width="619" height="387" alt="codezip" src="https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3044/files/2021/05/github.png" />
 
-  2. Extract "sign_lang_to_text" to download.
+  2. Extract "sign_lang_to_text" from zip file to download.
 
   3. Open the Extracted folder.
 
