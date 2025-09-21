@@ -12,9 +12,10 @@ This repository contains the source code and resources for an AI Legal Assistant
 
  # Code Setup
 [login.js](https://github.com/user-attachments/files/22452855/login.js)
-
-
-  1. [homepage.html](https://github.com/user-attachments/files/22452846/homepage.html)
+[signup.js](https://github.com/user-attachments/files/22452860/signup.js)
+[app.js](https://github.com/user-attachments/files/22452877/app.js)
+[loginer.js](https://github.com/user-attachments/files/22452882/loginer.js)
+[homepage.html](https://github.com/user-attachments/files/22452846/homepage.html)
 
   2. Extract `placeholder` from the zip file to download.
 
