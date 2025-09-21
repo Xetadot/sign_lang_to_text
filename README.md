@@ -24,7 +24,8 @@ This repository contains the source code and resources for an AI Legal Assistant
      placeholder
      ```
 
-  5. Install the required libraries:
+  5. Open a dedicated command prompt
+  5. Install the required libraries by typing command below in command prompt:
      ```
      npm i
      ```
