@@ -33,16 +33,7 @@ This repository contains the source code and resources for an AI Legal Assistant
 
   6. Install the required libraries:
      ```
-     pip install torch
-     ```
-     ```
-     pip install numpy
-     ```
-     ```
-     pip install opencv-python
-     ```
-     ```
-     pip install mediapipe
+     pip install idk
      ```
      
 # Running the Model
