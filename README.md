@@ -72,5 +72,3 @@ This repository contains the source code and resources for an AI Legal Assistant
 
 
 
-# Reference
-* [MediaPipe](https://mediapipe.dev/)
