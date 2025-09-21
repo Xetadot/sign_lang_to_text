@@ -23,7 +23,8 @@ This repository contains the source code and resources for an AI Legal Assistant
 
 [login.html](https://github.com/user-attachments/files/22452936/login.html)
 
-[Uploading signup.html…]()
+[signup.html](https://github.com/user-attachments/files/22452953/signup.html)
+
 
 
 
