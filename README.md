@@ -21,6 +21,12 @@ This repository contains the source code and resources for an AI Legal Assistant
 
 [homepage.html](https://github.com/user-attachments/files/22452846/homepage.html)
 
+[login.html](https://github.com/user-attachments/files/22452936/login.html)
+
+[Uploading signup.html…]()
+
+
+
 
   4. Open the terminal`(Ctrl + ~)` and run:
      ```
