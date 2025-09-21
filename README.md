@@ -1,4 +1,4 @@
-# Sign Language Recognition
+# AI Legal Assistant for the Rakyat
 <img width="800" height="200" alt="asl" src="https://github.com/user-attachments/assets/f1260207-b02a-4173-bd78-7cdf6af07c7a" />
 
 This repository contains the source code and resources for a Sign Language Recognition System. The aim of this project is to develop a computer vision system that can recognize and interpret sign language gestures in real-time, specifically American Sign Language (ASL). This is a **beginner friendly** guide.
