@@ -33,7 +33,7 @@ This repository contains the source code and resources for an AI Legal Assistant
 
   6. Install the required libraries:
      ```
-     pip install idk
+     npm i
      ```
      
 # Running the Model
