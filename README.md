@@ -23,17 +23,10 @@ This repository contains the source code and resources for an AI Legal Assistant
      ```
      placeholder
      ```
-     This will create a folder named `myenv` with your virtual environment. `myenv` can be replaced with any other name you wish.
 
-  5. Activate the environment by running:
+  5. Install the required libraries:
      ```
-     \myenv\Scripts\activate
-     ```
-     After this, your terminal should show `(myenv)` in green - this means you are in the virtual environment.
-
-  6. Install the required libraries:
-     ```
-     pip install idk
+     npm i
      ```
      
 # Running the Model
