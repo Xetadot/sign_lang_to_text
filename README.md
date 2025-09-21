@@ -2,13 +2,14 @@
 <img width="800" height="200" alt="asl" src="https://cdn.prod.website-files.com/672b8fcccce3fc53bb92fb97/672bab1defe652cd000583cc_1.png" />
 
 This repository contains the source code and resources for an AI Legal Assistant. The aim of this project is to develop an AI-powered legal assistant that can:
-*Summarize legal documents in plain English / Bahasa Melayu.
 
-*Highlight key clauses (e.g., termination, payment, liabilities).
+* Summarize legal documents in plain English / Bahasa Melayu.
 
-*Flag potential risks with easy-to-understand warnings.
+* Highlight key clauses (e.g., termination, payment, liabilities).
 
-*Provide context by grounding answers in Malaysian laws (via Retrieval-Augmented Generation).
+* Flag potential risks with easy-to-understand warnings.
+
+* Provide context by grounding answers in Malaysian laws (via Retrieval-Augmented Generation).
 
 # Visual Studio Code (VS Code) Installation and Setup
 We will be using `Visual Studio Code` as our main platform to run this model.
