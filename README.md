@@ -21,9 +21,6 @@ This repository contains the source code and resources for an AI Legal Assistant
 
 [homepage.html](https://github.com/user-attachments/files/22452846/homepage.html)
 
-  2. Extract `placeholder` from the zip file to download.
-
-  3. Open the extracted folder.
 
   4. Open the terminal`(Ctrl + ~)` and run:
      ```
